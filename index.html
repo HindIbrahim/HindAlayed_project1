@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/css.css">
+
+
+</head>
+<body class="background" style="background-color: rgb(155, 175, 155); background-image: url('img/background.png');">
+
+
+    
+    <br><br><br><br>
+<div class="index-title">
+    <h2>welcome to GA Course</h2>
+    <h1 style="font-size:50px">I am <span style="color: rgb(200, 200, 226); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Hind Alayed </span></h1>
+    <p>And you can login  from here :</p>
+  
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="btnn">Login</button>
+ 
+  </div>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="" method="post">
+ 
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input id="name" type="text" placeholder="Enter Username" name="uname" value =""required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="pass" value="" required>
+        
+      <button  id="log">Login </button>
+     
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+     
+    </div>
+  </form>
+</div>
+
+
+<script src="js/script.js"></script>       
+</body>
+</html>
+
